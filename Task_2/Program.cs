@@ -3,7 +3,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-Console.Write ("Введите трёхзначное число:");
+Console.Write ("Введите число:");
 string stringNumber = Console.ReadLine();
 int number;
 bool isNumber = int.TryParse(stringNumber, out number);
